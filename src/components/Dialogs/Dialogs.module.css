@@ -1,0 +1,90 @@
+.dialogs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dialogs_items {
+    width: 45%;
+    box-shadow: 0 0 10px rgba(237, 194, 66, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    padding: 20px;
+
+
+}
+
+.messeges {
+    width: 45%;
+    box-shadow: 0 0 10px rgba(237, 194, 66, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    padding: 20px;
+}
+
+.dialogs_items .active {
+    color: blue;
+}
+
+.dialog_name {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+
+
+
+
+
+
+}
+
+.messegeName {
+    box-shadow: 0 0 10px rgba(237, 194, 66, 0.5);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.oneMessege {
+    box-shadow: 0 0 10px rgba(237, 194, 66, 0.5);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.oneMessege div {
+    padding: 10px;
+}
+
+.newMesegge {
+    display: flex;
+    width: 100%;
+}
+
+.inputNewMessege {
+    width: 400px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #5ab5f9;
+    outline: none;
+}
+
+.buttonNewMessege {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5ab5f9;
+    font-weight: bold;
+    font-size: medium;
+    outline: none;
+    cursor: pointer;
+}

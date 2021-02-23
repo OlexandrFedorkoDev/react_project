@@ -1,0 +1,35 @@
+.nav {
+  margin: auto;
+  font-weight: bold;
+  font-size: medium;
+  
+
+
+
+}
+
+.nav ul {
+
+  display: flex;
+
+}
+
+
+.nav li {
+  list-style: none;
+  margin-left: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+li :hover {
+  border-bottom: 2px solid black;
+}
+
+li .active {
+  color: #5ab5f9;
+}

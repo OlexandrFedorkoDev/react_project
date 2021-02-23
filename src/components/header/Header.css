@@ -1,0 +1,24 @@
+.header {
+
+
+  width: 100%;
+  display: flex;
+
+  box-shadow: 0 0 5px rgba(237, 194, 66, 0.5);
+  background-color: rgb(237, 194, 66);
+
+
+
+
+}
+
+.header img {
+  width: 150px;
+  height: 80px;
+
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,68 @@
+.MyPosts {
+    width: 100%;
+    box-shadow: 0 0 5px rgba(237, 194, 66, 0.5);
+    margin-top: 20px;
+
+
+}
+
+.postImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+
+
+
+}
+
+.txtPost {
+    padding-left: 20px;
+
+}
+
+.inputPost {
+    padding: 30px;
+    text-align: center;
+}
+
+.like {
+    padding-left: 20px;
+}
+
+.postBox {
+    box-shadow: 0 0 5px rgba(237, 194, 66, 0.5);
+    margin: 20px;
+}
+
+.btn_addPost {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: #5ab5f9;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    cursor: pointer;
+
+
+}
+
+.input {
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #5ab5f9;
+    outline: none;
+    height: 25px;
+    font-size: medium;
+
+
+}
